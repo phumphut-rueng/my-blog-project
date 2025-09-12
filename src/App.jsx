@@ -1,8 +1,8 @@
 import './App.css'
 
-import { Nav } from './components/navbar'
-import { HeroSection } from './components/heroSection'
-import { Footer } from './components/footer'
+import { Nav } from './components/Navbar'
+import { HeroSection } from './components/HeroSection'
+import { Footer } from './components/Footer'
 import { ArticleSection } from './components/ArticleSection'
 
 
