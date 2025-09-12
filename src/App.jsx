@@ -1,6 +1,9 @@
 import './App.css'
-import { Nav,HeroSection } from './components/homepage'
 
+import { Nav } from './components/navbar'
+import { HeroSection } from './components/heroSection'
+import { Footer } from './components/footer'
+import { ArticleSection } from './components/ArticleSection'
 
 
 function App() {
@@ -8,6 +11,8 @@ function App() {
     <>
     <Nav />
     <HeroSection />
+    <ArticleSection />
+    <Footer />
     </>
   )
 }
