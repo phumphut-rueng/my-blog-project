@@ -1,6 +1,6 @@
 export function Nav() {
   return (
-    <nav className="flex items-center justify-between py-4 px-8 bg-white border-b ">
+    <nav className="flex items-center justify-between py-4 px-8 bg-[#F9F8F6] border-b border-[#DAD6D1]">
       <a href="/" className="text-2xl">
         hh<span className="text-green-500">.</span>
       </a>
