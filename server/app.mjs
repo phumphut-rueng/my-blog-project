@@ -4,7 +4,9 @@ import cors from "cors";
 const app = express();
 const port = process.env.PORT || 4001;
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://my-blog-project-sigma.vercel.app' // ใส่ URL ของหน้าเว็บคุณจาก Vercel
+}));
 app.use(express.json());
 
 app.get("/profiles", (req, res) => {
